@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: discovery-service
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url: http://${eureka.instance.hostname}:${server.port}/eureka/
