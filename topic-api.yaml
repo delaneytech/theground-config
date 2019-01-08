@@ -1,0 +1,25 @@
+pulsar:
+  service:
+    url: pulsar://tcp.theground.io:6650
+  admin:
+    service:
+      url: https://pulsar-broker.theground.io
+
+server:
+  port: 8083
+
+logging:
+  level:
+    root: info
+
+spring:
+  application:
+    name: topic-api
+
+  main:
+    web-application-type: reactive
+
+  devtools:
+    livereload:
+      enabled: true
+
