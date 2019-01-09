@@ -6,7 +6,7 @@ pulsar:
       url: https://pulsar-broker.theground.io
 
 server:
-  port: 8083
+  port: 8084
 
 logging:
   level:
