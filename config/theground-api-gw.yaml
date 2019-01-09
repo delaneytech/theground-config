@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: topic-api
+        uri: http://localhost:8084/topics
+        predicates:
+        - Path=/topics*,/topics/*
+
