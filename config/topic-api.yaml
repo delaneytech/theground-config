@@ -6,7 +6,7 @@ pulsar:
       url: https://pulsar-broker.theground.io
 
 server:
-  port: 8084
+  port: 80
 
 logging:
   level:
@@ -23,3 +23,6 @@ spring:
     livereload:
       enabled: true
 
+eureka:
+  instance:
+    hostname: topic-api.api
