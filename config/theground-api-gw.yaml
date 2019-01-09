@@ -9,11 +9,11 @@ spring:
           enabled: true
       routes:
       - id: function-api
-        uri: http://localhost:8081/functions
+        uri: http://function-api.api/functions
         predicates:
         - Path=/functions*,/functions/**
       - id: topic-api
-        uri: http://localhost:8084/topics
+        uri: http://topic-api.api/topics
         predicates:
         - Path=/topics*,/topics/**
 
