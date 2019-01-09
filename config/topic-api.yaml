@@ -5,9 +5,6 @@ pulsar:
     service:
       url: https://pulsar-broker.theground.io
 
-server:
-  port: 80
-
 logging:
   level:
     root: info
@@ -15,13 +12,8 @@ logging:
 spring:
   application:
     name: topic-api
-
   main:
     web-application-type: reactive
-
-  devtools:
-    livereload:
-      enabled: true
 
 eureka:
   instance:
