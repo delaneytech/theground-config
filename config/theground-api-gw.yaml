@@ -11,7 +11,7 @@ spring:
       - id: function-api
         uri: http://function-api.api/functions
         predicates:
-        - Path=/functions*,/functions/**
+        - Path=/functions*,/functions/*
       - id: topic-api
         uri: http://topic-api.api/topics
         predicates:
