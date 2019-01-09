@@ -8,8 +8,13 @@ spring:
         locator:
           enabled: true
       routes:
+      - id: function-api
+        uri: http://localhost:8081/functions
+        predicates:
+        - Path=/functions*,/functions/**
       - id: topic-api
         uri: http://localhost:8084/topics
         predicates:
-        - Path=/topics*,/topics/*
+        - Path=/topics*,/topics/**
+
 
