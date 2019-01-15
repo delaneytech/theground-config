@@ -12,8 +12,6 @@ spring:
         uri: http://function-api.api/functions
         predicates:
         - Path=/functions/**
-        filters:
-        - RewritePath=/functions
       - id: topic-api
         uri: http://topic-api.api/topics
         predicates:
