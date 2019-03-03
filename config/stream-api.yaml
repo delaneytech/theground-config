@@ -1,0 +1,20 @@
+pulsar:
+  service:
+    url: pulsar://tcp.theground.io:6650
+  admin:
+    service:
+      url: https://pulsar-broker.theground.io
+
+logging:
+  level:
+    root: info
+
+spring:
+  application:
+    name: stream-api
+  main:
+    web-application-type: reactive
+
+eureka:
+  instance:
+    hostname: stream-api.api
