@@ -1,9 +1,12 @@
-pulsar:
-  service:
-    url: pulsar://tcp.theground.io:6650
-  admin:
-    service:
-      url: https://pulsar-broker.theground.io
+eureka:
+  instance:
+    hostname: stream-api.api
+  client:
+    service-url:
+      defaultZone: http://discovery-service.api:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+
 
 logging:
   level:
@@ -14,7 +17,8 @@ spring:
     name: stream-api
   main:
     web-application-type: reactive
+  cloud:
+    dataflow:
+      client:
+        serverUri: http://scdf-server.scdf:8443
 
-eureka:
-  instance:
-    hostname: stream-api.api
