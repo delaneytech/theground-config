@@ -1,0 +1,32 @@
+pulsar:
+  service:
+    url: pulsar://tcp.theground.io:6650
+  admin:
+    service:
+      url: https://pulsar-broker.theground.io
+  topic:
+    function-upload: persistent://theground/api/function-upload
+    file-upload: persistent://theground/data/gdelt_c
+
+
+
+server:
+  port: 8084
+
+eureka:
+  instance:
+    hostname: registry-api.api
+
+spring:
+  application:
+    name: registry-api
+
+
+
+
+
+
+
+
+
+
