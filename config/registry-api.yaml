@@ -11,7 +11,7 @@ pulsar:
 
 
 server:
-  port: 8084
+  port: 80
 
 eureka:
   instance:
