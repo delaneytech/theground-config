@@ -20,5 +20,5 @@ spring:
   cloud:
     dataflow:
       client:
-        serverUri: http://scdf-server.scdf:8443
+        serverUri: http://scdf-server.scdf:443
 
