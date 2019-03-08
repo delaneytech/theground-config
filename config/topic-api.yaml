@@ -1,9 +1,9 @@
 pulsar:
   service:
-    url: pulsar://tcp.theground.io:6650
+    url: pulsar://broker.pulsar:6650
   admin:
     service:
-      url: https://pulsar-broker.theground.io
+      url: http://broker.pulsar:8080
 
 logging:
   level:
