@@ -13,8 +13,6 @@ server:
 
 eureka:
   instance:
-    prefer-ip-address: false
-    home-page-url: https://registry.api.theground.io/index.html
     hostname: registry-api.api
 
 spring:
