@@ -8,13 +8,13 @@ pulsar:
     function-upload: persistent://theground/api/function-upload
     file-upload: persistent://theground/data/gdelt_c
 
-
-
 server:
   port: 80
 
 eureka:
   instance:
+    prefer-ip-address: false
+    home-page-url: https://registry.api.theground.io/index.html
     hostname: registry-api.api
 
 spring:
