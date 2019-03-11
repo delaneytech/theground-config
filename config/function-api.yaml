@@ -1,3 +1,10 @@
 eureka:
   instance:
     hostname: function-api.api
+
+pulsar:
+  service:
+    url: pulsar://broker.pulsar:6650
+  admin:
+    service:
+      url: https://broker.pulsar:8080
