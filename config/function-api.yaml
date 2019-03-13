@@ -1,6 +1,6 @@
 pulsar:
   service:
-    url: pulsar://broker.pulsar:6650
+    url: pulsar://tcp.theground.io:6650
   admin:
     service:
       url: https://broker.pulsar:8080
