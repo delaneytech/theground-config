@@ -1,9 +1,9 @@
 pulsar:
   service:
-    url: pulsar://tcp.theground.io:6650
+    url: pulsar://broker.pulsar:6650
   admin:
     service:
-      url: https://proxy.theground.io
+      url: https://proxy.pulsar:8080
 
 eureka:
   instance:
