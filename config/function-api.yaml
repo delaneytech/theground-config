@@ -1,9 +1,9 @@
 pulsar:
   service:
-    url: pulsar://broker.pulsar:6650
+    url: pulsar://proxy.pulsar:6650
   admin:
     service:
-      url: https://broker.pulsar:8080
+      url: https://proxy.pulsar:8080
 
 eureka:
   instance:
