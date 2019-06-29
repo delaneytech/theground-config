@@ -3,7 +3,7 @@ pulsar:
     url: pulsar://broker.pulsar:6650
   admin:
     service:
-      url: http://pulsar-broker.pulsar:8080
+      url: http://broker.pulsar:8080
 
 eureka:
   instance:
