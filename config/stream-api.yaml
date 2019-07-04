@@ -26,3 +26,5 @@ spring:
       client:
         serverUri: http://scdf-server.scdf:443
 
+server:
+  port: 80

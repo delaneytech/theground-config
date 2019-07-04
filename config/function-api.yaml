@@ -12,3 +12,7 @@ eureka:
 spring:
   application:
     name: function-api
+
+
+server:
+  port: 80

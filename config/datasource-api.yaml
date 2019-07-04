@@ -6,7 +6,7 @@ pulsar:
       url: http://proxy.pulsar:8080
 
 server:
-  port: 8085
+  port: 80
 
 eureka:
   instance:

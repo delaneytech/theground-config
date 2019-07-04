@@ -18,3 +18,5 @@ spring:
 eureka:
   instance:
     hostname: topic-api.api
+server:
+  port: 80
