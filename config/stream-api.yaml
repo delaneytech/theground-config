@@ -17,6 +17,9 @@ spring:
     name: stream-api
   main:
     web-application-type: reactive
+  data
+    cassandra:
+      contact-points: geoant-cassandra.geoant
   cloud:
     dataflow:
       client:
