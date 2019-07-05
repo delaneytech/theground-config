@@ -18,6 +18,10 @@ eureka:
 spring:
   application:
     name: registry-api
+  data:
+    elasticsearch:
+      cluster-nodes: geoant-service.geoant:9200
+      cluster-name: geoant
 
 
 
