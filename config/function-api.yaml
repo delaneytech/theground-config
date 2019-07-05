@@ -12,7 +12,11 @@ eureka:
 spring:
   application:
     name: function-api
-
+  data:
+    elasticsearch:
+      cluster-nodes: tcp.theground.io:9200
+      cluster-name: geoant
 
 server:
   port: 80
+
