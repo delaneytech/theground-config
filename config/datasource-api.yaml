@@ -15,3 +15,6 @@ eureka:
 logging:
   level:
     root: info
+
+image:
+  s3-poller: hub.theground.io/s3-poller:0.0.1-SNAPSHOT-0021
