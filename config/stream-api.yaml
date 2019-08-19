@@ -19,6 +19,9 @@ spring:
   main:
     web-application-type: reactive
   data:
+    elasticsearch:
+      cluster-nodes: tcp.theground.io:9200
+      cluster-name: geoant
     cassandra:
       contact-points: geoant-cassandra.geoant
   cloud:
