@@ -1,0 +1,22 @@
+pulsar:
+  service:
+    url: pulsar://broker.pulsar:6650
+  admin:
+    service:
+      url: http://proxy.pulsar:8080
+
+server:
+  port: 80
+
+eureka:
+  instance:
+    hostname: datasource-api.api
+
+logging:
+  level:
+    root: info
+
+image:
+  s3-poller: hub.theground.io/s3-poller:0.0.1-SNAPSHOT-0023
+datasource-api:
+  yaml:
